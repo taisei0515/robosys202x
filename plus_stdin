@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2023 Taisei Fujino s22C1113LC@s.chibakoudai.jp
+# SPDX-Licence-Identifier: BSD-3-Clause
 import sys
 
 ans=0
