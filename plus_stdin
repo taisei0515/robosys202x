@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Taisei Fujino s22C1113LC@s.chibakoudai.jp
 import sys
 
 ans=0
