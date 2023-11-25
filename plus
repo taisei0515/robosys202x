@@ -1,14 +1,23 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2023 Taisei Fujino
+# SPDX-FileCopyrightText: 2023 taisei0515
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 
-ans = 0
-for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line)
-
+ans = 0.0
+print("足し算を実行する場合は'+'\n引き算を実行する場合は'-'\n掛け算を実行する場合は'*'\n割り算を実行する場合は'/'\nを入力してください。")
+x = input()
+if x == '+':
+    for line in sys.argv[1:]:
+        try:
+            ans += int(line)
+        except:
+            ans += float(line)
+        
+if x == '-':
+    for line in sys.argv[1:]:
+        try:
+            ans -= int(line)
+        except:
+            ans -= float(line)
 print(ans)
