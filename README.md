@@ -14,13 +14,16 @@
 * plusのコードをコピーして新規ファイルに貼り付けてください。
 
 ##インストール方法
-chmod +x plus
-yourfile | ./plus
+$ chmod +x plus
+$ yourfile | ./plus
 
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7~3.10
 
+##簡単な使い方
+$ seq5 | ./plus
+* 15
 ## テスト環境
 * Ubuntu
 
